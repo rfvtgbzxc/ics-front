@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import XWDatePicker from "./Components/XWDatePicker";
 import axios from "axios";
 const { Title } = Typography;
-const { Content, Header, Sider } = Layout;
+const { Content } = Layout;
 const ajax_url = "http://hbat.online:7001/ICS/get";
 const return_url = "http://hbat.online:7001/ICS/api/{@0}.ics";
 function App() {
